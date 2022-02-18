@@ -1,0 +1,9 @@
+[locust run]
+host: https://host.to.test/
+locustfile: test.py
+headless: true
+hatch-rate: 10
+users: 50
+run-time: 500s
+web-port: 28401
+master: true
